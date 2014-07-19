@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/identitytoolkit_page"
+    android:layout_width="@dimen/identitytoolkit_page_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/identitytoolkit_verify_account_header"
+        style="@style/identitytoolkit_text.label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Verify user@domain.com" />
+
+    <View
+        style="@style/identitytoolkit_divider"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/identitytoolkit_space_big" />
+
+    <TextView
+        android:id="@+id/identitytoolkit_verified_account_info"
+        style="@style/identitytoolkit_text.instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Previously you signed in with Facebook." />
+
+    <LinearLayout
+        style="@style/identitytoolkit_inner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/identitytoolkit_space_small"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/identitytoolkit_verified_idp_icon"
+            android:layout_width="@dimen/identitytoolkit_button_height"
+            android:layout_height="@dimen/identitytoolkit_button_height"
+            android:contentDescription="@string/identitytoolkit_idp_icon_description"
+            tools:background="@drawable/identitytoolkit_idp_facebook_bg"
+            tools:src="@drawable/identitytoolkit_idp_facebook_icon" />
+
+        <ImageView
+            android:id="@+id/identitytoolkit_verified_account_picture"
+            android:layout_width="@dimen/identitytoolkit_button_height"
+            android:layout_height="@dimen/identitytoolkit_button_height"
+            android:layout_marginLeft="@dimen/identitytoolkit_space_small"
+            android:contentDescription="@string/identitytoolkit_account_picture_description"
+            android:src="@drawable/identitytoolkit_default_photo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/identitytoolkit_current_account_info"
+        style="@style/identitytoolkit_text.instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/identitytoolkit_space_small"
+        tools:text="But just now, you signed in with Google." />
+
+    <LinearLayout
+        style="@style/identitytoolkit_inner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/identitytoolkit_space_small"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/identitytoolkit_current_idp_icon"
+            android:layout_width="@dimen/identitytoolkit_button_height"
+            android:layout_height="@dimen/identitytoolkit_button_height"
+            android:contentDescription="@string/identitytoolkit_idp_icon_description"
+            tools:background="@drawable/identitytoolkit_idp_google_bg"
+            tools:src="@drawable/identitytoolkit_idp_google_icon" />
+
+        <ImageView
+            android:id="@+id/identitytoolkit_current_account_picture"
+            android:layout_width="@dimen/identitytoolkit_button_height"
+            android:layout_height="@dimen/identitytoolkit_button_height"
+            android:layout_marginLeft="@dimen/identitytoolkit_space_small"
+            android:contentDescription="@string/identitytoolkit_account_picture_description"
+            android:src="@drawable/identitytoolkit_default_photo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/identitytoolkit_verify_account_instruction"
+        style="@style/identitytoolkit_text.instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/identitytoolkit_space_big"
+        tools:text="So we need to verify with Facebook that you are the same person." />
+
+    <Button
+        android:id="@+id/identitytoolkit_next"
+        style="@style/identitytoolkit_button"
+        android:layout_marginTop="@dimen/identitytoolkit_space_big"
+        tools:text="Continue to Facebook" />
+
+</LinearLayout>

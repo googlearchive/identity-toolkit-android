@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="identitytoolkit_account_chip_border">#ddd</color>
+    <color name="identitytoolkit_background">#fff</color>
+    <color name="identitytoolkit_button_enabled">#4184f3</color>
+    <color name="identitytoolkit_button_disabled">#804184f3</color>
+    <color name="identitytoolkit_button_text">#fff</color>
+    <color name="identitytoolkit_idp_color_amazon">#626a74</color>
+    <color name="identitytoolkit_idp_color_aol">#ff8112</color>
+    <color name="identitytoolkit_idp_color_facebook">#3b5998</color>
+    <color name="identitytoolkit_idp_color_google">#dd4b39</color>
+    <color name="identitytoolkit_idp_color_linkedin">#1f88bd</color>
+    <color name="identitytoolkit_idp_color_microsoft">#004185</color>
+    <color name="identitytoolkit_idp_color_paypal">#008de0</color>
+    <color name="identitytoolkit_idp_color_yahoo">#4002af</color>
+    <color name="identitytoolkit_text_header">#666</color>
+    <color name="identitytoolkit_text_input_border_focused">#4184f3</color>
+    <color name="identitytoolkit_text_input_border_invalid">#f00</color>
+    <color name="identitytoolkit_text_input_border_unfocused">#ddd</color>
+    <color name="identitytoolkit_text_instruction">#999</color>
+    <color name="identitytoolkit_text_label">#262626</color>
+    <color name="identitytoolkit_text_link">#4184f3</color>
+
+</resources>
