@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="identitytoolkit_header_sign_in">Please sign in.</string>
+    <string name="identitytoolkit_header_sign_up">Create new account</string>
+    <string name="identitytoolkit_label_or">or</string>
+    <string name="identitytoolkit_label_email">Email</string>
+    <string name="identitytoolkit_label_password">Password</string>
+    <string name="identitytoolkit_label_name">Name</string>
+    <string name="identitytoolkit_label_next">Next</string>
+    <string name="identitytoolkit_label_create_account">Create account</string>
+    <string name="identitytoolkit_label_continue">Continue</string>
+    <string name="identitytoolkit_label_sign_in_with">Sign in with %1$s</string>
+    <string name="identitytoolkit_label_trouble">Trouble signing in?</string>
+    <string name="identitytoolkit_label_switch_account">Switch account</string>
+    <string name="identitytoolkit_label_tos">I accept the &lt;a href=\"%1$s\"&gt;Terms of Service&lt;/a&gt;</string>
+    <string name="identitytoolkit_hint_email">e.g. john@company.com</string>
+    <string name="identitytoolkit_hint_first_name">First name</string>
+    <string name="identitytoolkit_hint_invalid_password">Invalid password. Please try again.</string>
+    <string name="identitytoolkit_hint_last_name">Last name</string>
+    <string name="identitytoolkit_hint_password">Enter password</string>
+    <string name="identitytoolkit_hint_password_confirm">Confirm password</string>
+    <string name="identitytoolkit_account_picture_description">Your profile picture.</string>
+    <string name="identitytoolkit_idp_icon_description">Identity provider icon.</string>
+    <string name="identitytoolkit_header_verify_account">Verify %1$s</string>
+    <string name="identitytoolkit_label_idp_verified_account_info">Previously you signed in with %1$s.</string>
+    <string name="identitytoolkit_label_idp_current_account_info">But just now, you signed in with %1$s.</string>
+    <string name="identitytoolkit_label_idp_verify_account_instruction">So we need to verify with %1$s that you are the same person.</string>
+    <string name="identitytoolkit_label_idp_verify_account_continue">Continue to %1$s</string>
+    <string name="identitytoolkit_label_password_verified_account_info">Previously you signed in with password.</string>
+    <string name="identitytoolkit_label_password_verify_account_instruction">So we need to verify that you are the same person by checking your password.</string>
+    <string name="identitytoolkit_title_manage_account">Manage Account</string>
+    <string name="identitytoolkit_title_forgot_password">Reset Password</string>
+
+</resources>

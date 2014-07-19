@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gitkit Demo</string>
+    <string name="profile_picture_desc">Profile picture</string>
+    <string name="welcome">Welcome to Gitkit Demo</string>
+    <string name="sign_in_label">Sign in</string>
+    <string name="manage_account_label">Manage account</string>
+    <string name="sign_out_label">Sign out</string>
+
+</resources>

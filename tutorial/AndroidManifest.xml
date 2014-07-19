@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2014 Google Inc. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.identitytoolkit.demo"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.google.identitytoolkit.demo.GitkitDemo"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="gitkit"
+                    android:scheme="com.googleusercontent.apps.217923393573" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="identitytoolkit.show_providers"
+            android:value="Google, Yahoo" />
+        <meta-data
+            android:name="identitytoolkit.use_google_plus"
+            android:value="false" />
+        <!-- Un-comment the following 3 meta-data tags and replace placeholder with the real value -->
+        <!--meta-data
+            android:name="identitytoolkit.api_key"
+            android:value="INSERT_YOUR_API_KEY" /-->
+        <!--meta-data
+            android:name="identitytoolkit.server_client_id"
+            android:value="INSERT_YOUR_SERVER_CLIENT_ID" /-->
+        <!--meta-data
+            android:name="identitytoolkit.server_widget_url"
+            android:value="INSERT_YOUR_SERVER_WIDGET_URL" /-->
+    </application>
+
+</manifest>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/account_chip_bg"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/account_picture"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/profile_picture_desc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/default_photo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/primary_text_light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/account_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/secondary_text_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/manage_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/manage_account_label"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/sign_out_label"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

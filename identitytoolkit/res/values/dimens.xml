@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="identitytoolkit_account_chip_height">64dp</dimen>
+    <dimen name="identitytoolkit_account_chip_padding">8dp</dimen>
+    <dimen name="identitytoolkit_account_chip_picture_size">48dp</dimen>
+    <dimen name="identitytoolkit_border_width">1dp</dimen>
+    <dimen name="identitytoolkit_button_height">40dp</dimen>
+    <dimen name="identitytoolkit_button_rounded_corner">2dp</dimen>
+    <dimen name="identitytoolkit_idp_button_height">@dimen/identitytoolkit_button_height</dimen>
+    <dimen name="identitytoolkit_page_padding">30dp</dimen>
+    <dimen name="identitytoolkit_page_width">300dp</dimen>
+    <dimen name="identitytoolkit_text_input_border_width">1dp</dimen>
+    <dimen name="identitytoolkit_text_input_height">@dimen/identitytoolkit_button_height</dimen>
+    <dimen name="identitytoolkit_text_input_padding">8dp</dimen>
+    <dimen name="identitytoolkit_text_line_space_extra">2sp</dimen>
+    <dimen name="identitytoolkit_text_size_normal">14sp</dimen>
+    <dimen name="identitytoolkit_text_size_header">24sp</dimen>
+    <dimen name="identitytoolkit_text_indent">8sp</dimen>
+    <dimen name="identitytoolkit_space_big">20dp</dimen>
+    <dimen name="identitytoolkit_space_small">10dp</dimen>
+
+</resources>
