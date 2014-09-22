@@ -59,7 +59,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="identitytoolkit.show_providers"
-            android:value="Google, Yahoo" />
+            android:value="Google" />
         <meta-data
             android:name="identitytoolkit.use_google_plus"
             android:value="false" />
