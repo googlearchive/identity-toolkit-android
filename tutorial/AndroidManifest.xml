@@ -47,10 +47,10 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
+                <!-- Un-comment the following data tag and replace placeholder. -->
+                <!--data
                     android:host="gitkit"
-                    android:scheme="com.googleusercontent.apps.217923393573" />
+                    android:scheme="INSERT_REVERSED_SERVER_CLIENT_ID" /-->
             </intent-filter>
         </activity>
 
