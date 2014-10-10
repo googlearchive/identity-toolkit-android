@@ -10,7 +10,7 @@ buildscript {
 repositories {
     mavenCentral()
     flatDir {
-        dirs '..'
+        dirs 'libs'
     }
 }
 
