@@ -1,3 +1,6 @@
 This is Google Identity Toolit quickstart for Android.
 See https://developers.google.com/identity-toolkit/quickstart/android for more
 information.
+
+For more information about the Identity Toolkit Android Library, see the
+<a href="http://googlesamples.github.io/identity-toolkit-android/">Javadoc</a>.
