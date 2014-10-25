@@ -16,16 +16,16 @@
 
 package com.google.identitytoolkit.demo;
 
-import com.google.identitytoolkit.client.GitkitClient;
-import com.google.identitytoolkit.model.Account;
-import com.google.identitytoolkit.model.IdToken;
+import com.google.identitytoolkit.GitkitClient;
+import com.google.identitytoolkit.GitkitUser;
+import com.google.identitytoolkit.IdToken;
 
+import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -37,7 +37,7 @@ import java.io.IOException;
 /**
  * Gitkit Demo.
  */
-public class GitkitDemo extends FragmentActivity implements OnClickListener {
+public class GitkitDemo extends Activity implements OnClickListener {
 
   private GitkitClient client;
 
@@ -121,9 +121,9 @@ public class GitkitDemo extends FragmentActivity implements OnClickListener {
   }
 
 
-  private void showProfilePage(IdToken idToken, Account account) {
+  private void showProfilePage(IdToken idToken, GitkitUser user) {
     setContentView(R.layout.profile);
-    showAccount(account);
+    showAccount(user);
 
     findViewById(R.id.manage_account).setOnClickListener(this);
     findViewById(R.id.sign_out).setOnClickListener(this);
@@ -150,14 +150,14 @@ public class GitkitDemo extends FragmentActivity implements OnClickListener {
   }
 
 
-  private void showAccount(Account account) {
-    ((TextView) findViewById(R.id.account_email)).setText(account.getEmail());
+  private void showAccount(GitkitUser user) {
+    ((TextView) findViewById(R.id.account_email)).setText(user.getEmail());
 
-    if (account.getDisplayName() != null) {
-      ((TextView) findViewById(R.id.account_name)).setText(account.getDisplayName());
+    if (user.getDisplayName() != null) {
+      ((TextView) findViewById(R.id.account_name)).setText(user.getDisplayName());
     }
 
-    if (account.getPhotoUrl() != null) {
+    if (user.getPhotoUrl() != null) {
       final ImageView pictureView = (ImageView) findViewById(R.id.account_picture);
       new AsyncTask<String, Void, Bitmap>() {
 
@@ -177,7 +177,7 @@ public class GitkitDemo extends FragmentActivity implements OnClickListener {
             pictureView.setImageBitmap(bitmap);
           }
         }
-      }.execute(account.getPhotoUrl());
+      }.execute(user.getPhotoUrl());
     }
   }
 }

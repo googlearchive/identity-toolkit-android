@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/identitytoolkit_page"
-    android:layout_width="@dimen/identitytoolkit_page_width"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:orientation="vertical" >
+              style="@style/identitytoolkit_page"
+              android:layout_width="@dimen/identitytoolkit_page_width"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:orientation="vertical">
 
     <TextView
         style="@style/identitytoolkit_text.header"
@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/identitytoolkit_space_big"
         android:gravity="center"
-        android:text="@string/identitytoolkit_header_sign_in" />
+        android:text="@string/identitytoolkit_header_sign_in"/>
 
     <LinearLayout
         android:id="@+id/identitytoolkit_idp_buttons"
         style="@style/identitytoolkit_inner_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" />
+        android:orientation="vertical"/>
 
     <LinearLayout
         android:id="@+id/identitytoolkit_or_separator"
@@ -27,12 +27,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/identitytoolkit_space_big"
-        android:layout_marginTop="@dimen/identitytoolkit_space_big" >
+        android:layout_marginTop="@dimen/identitytoolkit_space_big">
 
         <View
             style="@style/identitytoolkit_divider"
             android:layout_width="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"/>
 
         <TextView
             style="@style/identitytoolkit_text.instruction"
@@ -40,38 +40,39 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/identitytoolkit_text_indent"
             android:layout_marginRight="@dimen/identitytoolkit_text_indent"
-            android:text="@string/identitytoolkit_label_or" />
+            android:text="@string/identitytoolkit_label_or"/>
 
         <View
             style="@style/identitytoolkit_divider"
-            android:layout_weight="1" />
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <LinearLayout
         style="@style/identitytoolkit_inner_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             style="@style/identitytoolkit_text.label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/identitytoolkit_label_email" />
+            android:text="@string/identitytoolkit_label_email"/>
 
         <EditText
             android:id="@+id/identitytoolkit_email"
             style="@style/identitytoolkit_text_input"
             android:hint="@string/identitytoolkit_hint_email"
             android:imeOptions="actionDone"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"/>
 
         <Button
             android:id="@+id/identitytoolkit_next"
             style="@style/identitytoolkit_button"
             android:layout_marginTop="@dimen/identitytoolkit_space_big"
             android:enabled="false"
-            android:text="@string/identitytoolkit_label_next" />
+            android:text="@string/identitytoolkit_label_next"/>
     </LinearLayout>
 
 </LinearLayout>
+<!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/layout/identitytoolkit_start_sign_in_page.xml -->

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <integer name="identitytoolkit_max_number_of_idp_buttons">3</integer>
-
-    <bool name="identitytoolkit_force_portrait">true</bool>
-
-</resources>

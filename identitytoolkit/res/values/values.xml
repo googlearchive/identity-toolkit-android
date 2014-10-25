@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values/configs.xml -->
+    <eat-comment />
+
+    <bool name="identitytoolkit_force_portrait">true</bool>
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="identitytoolkit_account_chip_border">#ddd</color>
+    <color name="identitytoolkit_background">#fff</color>
+    <color name="identitytoolkit_button_disabled">#804184f3</color>
+    <color name="identitytoolkit_button_enabled">#4184f3</color>
+    <color name="identitytoolkit_button_text">#fff</color>
+    <color name="identitytoolkit_idp_color_amazon">#626a74</color>
+    <color name="identitytoolkit_idp_color_aol">#ff8112</color>
+    <color name="identitytoolkit_idp_color_facebook">#3b5998</color>
+    <color name="identitytoolkit_idp_color_google">#dd4b39</color>
+    <color name="identitytoolkit_idp_color_linkedin">#1f88bd</color>
+    <color name="identitytoolkit_idp_color_microsoft">#004185</color>
+    <color name="identitytoolkit_idp_color_paypal">#008de0</color>
+    <color name="identitytoolkit_idp_color_yahoo">#4002af</color>
+    <color name="identitytoolkit_text_header">#666</color>
+    <color name="identitytoolkit_text_input_border_focused">#4184f3</color>
+    <color name="identitytoolkit_text_input_border_invalid">#f00</color>
+    <color name="identitytoolkit_text_input_border_unfocused">#ddd</color>
+    <color name="identitytoolkit_text_instruction">#999</color>
+    <color name="identitytoolkit_text_label">#262626</color>
+    <color name="identitytoolkit_text_link">#4184f3</color>
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="identitytoolkit_account_chip_height">64dp</dimen>
+    <dimen name="identitytoolkit_account_chip_padding">8dp</dimen>
+    <dimen name="identitytoolkit_account_chip_picture_size">48dp</dimen>
+    <dimen name="identitytoolkit_border_width">1dp</dimen>
+    <dimen name="identitytoolkit_button_height">40dp</dimen>
+    <dimen name="identitytoolkit_button_rounded_corner">2dp</dimen>
+    <dimen name="identitytoolkit_idp_button_height">@dimen/identitytoolkit_button_height</dimen>
+    <dimen name="identitytoolkit_page_padding">30dp</dimen>
+    <dimen name="identitytoolkit_page_width">320dp</dimen>
+    <dimen name="identitytoolkit_space_big">20dp</dimen>
+    <dimen name="identitytoolkit_space_small">10dp</dimen>
+    <dimen name="identitytoolkit_text_indent">8sp</dimen>
+    <dimen name="identitytoolkit_text_input_border_width">@dimen/identitytoolkit_border_width</dimen>
+    <dimen name="identitytoolkit_text_input_height">@dimen/identitytoolkit_button_height</dimen>
+    <dimen name="identitytoolkit_text_input_padding">8dp</dimen>
+    <dimen name="identitytoolkit_text_line_space_extra">2sp</dimen>
+    <dimen name="identitytoolkit_text_size_header">24sp</dimen>
+    <dimen name="identitytoolkit_text_size_normal">14sp</dimen>
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values/configs.xml -->
+    <eat-comment />
+
+    <integer name="identitytoolkit_max_number_of_idp_buttons">3</integer>
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="identitytoolkit_account_picture_description">Your profile picture.</string>
+    <string name="identitytoolkit_header_sign_in">Please sign in.</string>
+    <string name="identitytoolkit_header_sign_up">Create new account</string>
+    <string name="identitytoolkit_header_verify_account">Verify %1$s</string>
+    <string name="identitytoolkit_hint_email">e.g. john@company.com</string>
+    <string name="identitytoolkit_hint_invalid_password">Invalid password. Please try again.</string>
+    <string name="identitytoolkit_hint_password">Enter password</string>
+    <string name="identitytoolkit_hint_password_confirm">Confirm password</string>
+    <string name="identitytoolkit_idp_icon_description">Identity provider icon.</string>
+    <string name="identitytoolkit_label_continue">Continue</string>
+    <string name="identitytoolkit_label_email">Email</string>
+    <string name="identitytoolkit_label_idp_current_account_info">But just now, you signed in with %1$s.</string>
+    <string name="identitytoolkit_label_idp_verified_account_info">Previously you signed in with %1$s.</string>
+    <string name="identitytoolkit_label_idp_verify_account_continue">Continue to %1$s</string>
+    <string name="identitytoolkit_label_idp_verify_account_instruction">So we need to verify with %1$s that you are the same person.</string>
+    <string name="identitytoolkit_label_name">Name</string>
+    <string name="identitytoolkit_label_next">Next</string>
+    <string name="identitytoolkit_label_or">or</string>
+    <string name="identitytoolkit_label_password">Password</string>
+    <string name="identitytoolkit_label_password_verified_account_info">Previously you signed in with password.</string>
+    <string name="identitytoolkit_label_password_verify_account_instruction">So we need to verify that you are the same person by checking your password.</string>
+    <string name="identitytoolkit_label_sign_in_with">Sign in with %1$s</string>
+    <string name="identitytoolkit_label_switch_account">Switch account</string>
+    <string name="identitytoolkit_label_tos">I accept the &lt;a href=\"%1$s\">Terms of Service&lt;/a></string>
+    <string name="identitytoolkit_label_trouble">Trouble signing in?</string>
+    <string name="identitytoolkit_title_forgot_password">Reset Password</string>
+    <string name="identitytoolkit_title_manage_account">Manage Account</string>
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="identitytoolkit_account_chip">
+        <item name="android:background">@drawable/identitytoolkit_account_chip_bg</item>
+        <item name="android:padding">@dimen/identitytoolkit_account_chip_padding</item>
+    </style>
+
+    <style name="identitytoolkit_account_chip_picture">
+        <item name="android:adjustViewBounds">false</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="identitytoolkit_account_chip_text" parent="@identitytoolkit_text">
+        <item name="android:layout_marginLeft">@dimen/identitytoolkit_space_big</item>
+    </style>
+
+    <style name="identitytoolkit_account_chip_text.email">
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+    </style>
+
+    <style name="identitytoolkit_account_chip_text.name">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="identitytoolkit_button">
+        <item name="android:background">@drawable/identitytoolkit_button_bg</item>
+        <item name="android:layout_height">@dimen/identitytoolkit_button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/identitytoolkit_text_size_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/identitytoolkit_button_text</item>
+    </style>
+
+    <style name="identitytoolkit_button.idp" />
+
+    <style name="identitytoolkit_divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/identitytoolkit_text_input_border_unfocused</item>
+    </style>
+
+    <style name="identitytoolkit_inner_container">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="identitytoolkit_non_floating">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="identitytoolkit_page">
+        <item name="android:background">@color/identitytoolkit_background</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:padding">@dimen/identitytoolkit_page_padding</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="identitytoolkit_text">
+        <item name="android:lineSpacingExtra">@dimen/identitytoolkit_text_line_space_extra</item>
+        <item name="android:textSize">@dimen/identitytoolkit_text_size_normal</item>
+    </style>
+
+    <style name="identitytoolkit_text.header">
+        <item name="android:textColor">@color/identitytoolkit_text_header</item>
+        <item name="android:textSize">@dimen/identitytoolkit_text_size_header</item>
+    </style>
+
+    <style name="identitytoolkit_text.instruction">
+        <item name="android:textColor">@color/identitytoolkit_text_instruction</item>
+    </style>
+
+    <style name="identitytoolkit_text.label">
+        <item name="android:textColor">@color/identitytoolkit_text_label</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="identitytoolkit_text.link">
+        <item name="android:textColor">@color/identitytoolkit_text_link</item>
+    </style>
+
+    <style name="identitytoolkit_text_input">
+        <item name="android:background">@drawable/identitytoolkit_text_input_bg</item>
+        <item name="android:layout_height">@dimen/identitytoolkit_text_input_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/identitytoolkit_text_input_padding</item>
+    </style>
+
+</resources>

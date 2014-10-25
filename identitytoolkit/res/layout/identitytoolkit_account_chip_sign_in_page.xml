@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    style="@style/identitytoolkit_page"
-    android:layout_width="@dimen/identitytoolkit_page_width"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:orientation="vertical" >
+              xmlns:tools="http://schemas.android.com/tools"
+              style="@style/identitytoolkit_page"
+              android:layout_width="@dimen/identitytoolkit_page_width"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:orientation="vertical">
 
     <TextView
         style="@style/identitytoolkit_text.header"
@@ -13,14 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/identitytoolkit_space_big"
         android:gravity="center"
-        android:text="@string/identitytoolkit_header_sign_in" />
+        android:text="@string/identitytoolkit_header_sign_in"/>
 
     <LinearLayout
         android:id="@+id/identitytoolkit_account_chip"
         style="@style/identitytoolkit_account_chip"
         android:layout_width="match_parent"
         android:layout_height="@dimen/identitytoolkit_account_chip_height"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/identitytoolkit_account_chip_picture"
@@ -28,26 +28,26 @@
             android:layout_width="@dimen/identitytoolkit_account_chip_picture_size"
             android:layout_height="@dimen/identitytoolkit_account_chip_picture_size"
             android:contentDescription="@string/identitytoolkit_account_picture_description"
-            android:src="@drawable/identitytoolkit_default_photo" />
+            android:src="@drawable/identitytoolkit_default_photo"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/identitytoolkit_account_chip_name"
                 style="@style/identitytoolkit_account_chip_text.name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="user@domain.com" />
+                tools:text="John Doe"/>
 
             <TextView
                 android:id="@+id/identitytoolkit_account_chip_email"
                 style="@style/identitytoolkit_account_chip_text.email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="John Doe" />
+                tools:text="user@domain.com"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -59,6 +59,7 @@
         android:layout_marginLeft="@dimen/identitytoolkit_text_indent"
         android:layout_marginTop="@dimen/identitytoolkit_space_big"
         android:clickable="true"
-        android:text="@string/identitytoolkit_label_switch_account" />
+        android:text="@string/identitytoolkit_label_switch_account"/>
 
 </LinearLayout>
+<!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/layout/identitytoolkit_account_chip_sign_in_page.xml -->

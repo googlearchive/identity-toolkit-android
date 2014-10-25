@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
  Copyright 2014 Google Inc. All Rights Reserved.
 
@@ -13,14 +14,13 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.identitytoolkit"
-    android:versionCode="1"
-    android:versionName="0.1" >
+    package="com.google.identitytoolkit" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="10"
         android:targetSdkVersion="19" />
+
     <application />
+
 </manifest>

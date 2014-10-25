@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values-v16/styles.xml -->
+    <eat-comment />
+
     <style name="identitytoolkit_text.header">
         <item name="android:textColor">@color/identitytoolkit_text_header</item>
         <item name="android:textSize">@dimen/identitytoolkit_text_size_header</item>

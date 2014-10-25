@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle" >
+       android:shape="rectangle">
 
-    <solid android:color="@android:color/transparent" />
+    <solid android:color="@android:color/transparent"/>
 
     <stroke
-        android:width="@dimen/identitytoolkit_border_width"
-        android:color="@color/identitytoolkit_text_input_border_unfocused" />
+        android:width="@dimen/identitytoolkit_text_input_border_width"
+        android:color="@color/identitytoolkit_text_input_border_unfocused"/>
 
 </shape>
+<!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/drawable/identitytoolkit_text_input_bg_unfocused.xml -->

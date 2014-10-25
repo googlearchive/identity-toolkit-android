@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/values-sw480dp/configs.xml -->
+    <eat-comment />
+
+    <bool name="identitytoolkit_force_portrait">false</bool>
+
+</resources>

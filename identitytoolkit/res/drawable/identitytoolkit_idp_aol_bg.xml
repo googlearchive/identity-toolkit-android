@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle" >
+       android:shape="rectangle">
 
-    <solid android:color="@color/identitytoolkit_idp_color_aol" />
+    <solid android:color="@color/identitytoolkit_idp_color_aol"/>
 
-    <corners android:radius="@dimen/identitytoolkit_button_rounded_corner" />
+    <corners android:radius="@dimen/identitytoolkit_button_rounded_corner"/>
 
 </shape>
+<!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/drawable/identitytoolkit_idp_aol_bg.xml -->

@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Button style="@style/identitytoolkit_button.idp" />
+<Button style="@style/identitytoolkit_button.idp"/>
+
+<!-- From: file:/usr/local/google/home/mengcheng/Work/g/gitkit-android/google3/apps/easyconnect/easyrp/gitkit/clientsdk/android/identitytoolkit/src/main/res/layout/identitytoolkit_idp_button.xml -->
