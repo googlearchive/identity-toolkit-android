@@ -14,14 +14,14 @@ repositories {
     }
 }
 
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 19
     buildToolsVersion '19.1.0'
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 11
         targetSdkVersion 19
     }
 
@@ -35,7 +35,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.0+'
-    compile 'com.google.android.gms:play-services:4.3.+'
-    compile(name:'identitytoolkit', ext:'aar')
+    compile 'com.google.android.gms:play-services:6.1.11'
+    compile(name:'identitytoolkit-api11', ext:'aar')
 }

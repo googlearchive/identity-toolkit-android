@@ -16,11 +16,8 @@
 
 package com.google.identitytoolkit.demo;
 
-import com.google.identitytoolkit.GitkitClient;
-import com.google.identitytoolkit.GitkitUser;
-import com.google.identitytoolkit.IdToken;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -31,6 +28,11 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.identitytoolkit.GitkitClient;
+import com.google.identitytoolkit.GitkitUser;
+import com.google.identitytoolkit.IdToken;
 
 import java.io.IOException;
 
@@ -50,14 +52,19 @@ public class GitkitDemo extends Activity implements OnClickListener {
     // The configurations are set in the AndroidManifest.xml. You can also set or overwrite them
     // by calling the corresponding setters on the GitkitClient builder.
     //
-/*
-    client = GitkitClient.newBuilder(this, new SignInCallbacks() {
+
+    client = GitkitClient.newBuilder(this, new GitkitClient.SignInCallbacks() {
       // Implement the onSignIn method of GitkitClient.SignInCallbacks interface.
       // This method is called when the sign-in process succeeds. A Gitkit IdToken and the signed
       // in account information are passed to the callback.
       @Override
-      public void onSignIn(IdToken idToken, Account account) {
-        showProfilePage(idToken, account);
+      public void onSignIn(IdToken idToken, GitkitUser user) {
+        showProfilePage(idToken, user);
+
+          // Now use the idToken to create a session for your user.
+          // To do so, you should exchange the idToken for either a Session Token or Cookie
+          // from your server.
+          // Finally, save the Session Token or Cookie to maintain your user's session.
       }
 
     // Implement the onSignInFailed method of GitkitClient.SignInCallbacks interface.
@@ -67,21 +74,8 @@ public class GitkitDemo extends Activity implements OnClickListener {
       Toast.makeText(GitkitDemo.this, "Sign in failed", Toast.LENGTH_LONG).show();
     }
     }).build();
-*/
 
-    // Step 2: Check if there is an already signed in user.
-    // If there is an already signed in user, show the profile page and welcome message.
-    // Otherwise, show a sign in button.
-    //
-/*
-    IdToken idToken = client.getSavedIdToken();
-    Account account = client.getSavedAccount();
-    if (idToken != null && account != null) {
-     showProfilePage(idToken, account);
-    } else {
-     showSignInPage();
-    }
-*/
+    showSignInPage();
   }
 
 
@@ -90,28 +84,28 @@ public class GitkitDemo extends Activity implements OnClickListener {
   // GitkitClient.handleActivityResult to check the result. If the result is for GitkitClient,
   // the method returns true to indicate the result has been consumed.
   //
-/*
+
   @Override
   protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
     if (!client.handleActivityResult(requestCode, resultCode, intent)) {
       super.onActivityResult(requestCode, resultCode, intent);
     }
   }
-*/
+
 
 
   // Step 4: Override the onNewIntent method.
   // When the app is invoked with an intent, it is possible that the intent is for GitkitClient.
   // Call GitkitClient.handleIntent to check it. If the intent is for GitkitClient, the method
   // returns true to indicate the intent has been consumed.
-/*
+
   @Override
   protected void onNewIntent(Intent intent) {
     if (!client.handleIntent(intent)) {
       super.onNewIntent(intent);
     }
   }
-*/
+
 
 
   private void showSignInPage() {
@@ -124,8 +118,6 @@ public class GitkitDemo extends Activity implements OnClickListener {
   private void showProfilePage(IdToken idToken, GitkitUser user) {
     setContentView(R.layout.profile);
     showAccount(user);
-
-    findViewById(R.id.manage_account).setOnClickListener(this);
     findViewById(R.id.sign_out).setOnClickListener(this);
   }
 
@@ -137,16 +129,12 @@ public class GitkitDemo extends Activity implements OnClickListener {
   // account UI.
   @Override
   public void onClick(View v) {
-/*
+
     if (v.getId() == R.id.sign_in) {
       client.startSignIn();
     } else if (v.getId() == R.id.sign_out) {
-      client.signOut();
       showSignInPage();
-    } else if (v.getId() == R.id.manage_account) {
-      client.manageAccount();
     }
-*/
   }
 
 

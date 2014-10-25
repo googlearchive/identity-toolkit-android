@@ -55,14 +55,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/manage_account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_bg"
-        android:text="@string/manage_account_label"
-        android:textColor="@android:color/white" />
-
-    <Button
         android:id="@+id/sign_out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
