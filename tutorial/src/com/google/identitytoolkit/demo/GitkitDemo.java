@@ -52,7 +52,7 @@ public class GitkitDemo extends Activity implements OnClickListener {
     // The configurations are set in the AndroidManifest.xml. You can also set or overwrite them
     // by calling the corresponding setters on the GitkitClient builder.
     //
-
+/*
     client = GitkitClient.newBuilder(this, new GitkitClient.SignInCallbacks() {
       // Implement the onSignIn method of GitkitClient.SignInCallbacks interface.
       // This method is called when the sign-in process succeeds. A Gitkit IdToken and the signed
@@ -77,6 +77,7 @@ public class GitkitDemo extends Activity implements OnClickListener {
 
     showSignInPage();
   }
+*/
 
 
   // Step 3: Override the onActivityResult method.
@@ -84,12 +85,13 @@ public class GitkitDemo extends Activity implements OnClickListener {
   // GitkitClient.handleActivityResult to check the result. If the result is for GitkitClient,
   // the method returns true to indicate the result has been consumed.
   //
-
+/*
   @Override
   protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
     if (!client.handleActivityResult(requestCode, resultCode, intent)) {
       super.onActivityResult(requestCode, resultCode, intent);
     }
+*/
   }
 
 
@@ -98,14 +100,14 @@ public class GitkitDemo extends Activity implements OnClickListener {
   // When the app is invoked with an intent, it is possible that the intent is for GitkitClient.
   // Call GitkitClient.handleIntent to check it. If the intent is for GitkitClient, the method
   // returns true to indicate the intent has been consumed.
-
+/*
   @Override
   protected void onNewIntent(Intent intent) {
     if (!client.handleIntent(intent)) {
       super.onNewIntent(intent);
     }
   }
-
+*/
 
 
   private void showSignInPage() {
@@ -127,6 +129,7 @@ public class GitkitDemo extends Activity implements OnClickListener {
   // If the user clicks sign out, call GitkitClient.signOut() to clear state.
   // If the user clicks manage account, call GitkitClient.manageAccount() to show manage
   // account UI.
+/*
   @Override
   public void onClick(View v) {
 
@@ -136,6 +139,7 @@ public class GitkitDemo extends Activity implements OnClickListener {
       showSignInPage();
     }
   }
+*/
 
 
   private void showAccount(GitkitUser user) {
