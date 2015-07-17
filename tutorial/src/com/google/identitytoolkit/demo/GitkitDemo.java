@@ -126,9 +126,6 @@ public class GitkitDemo extends Activity implements OnClickListener {
 
   // Step 5: Respond to user actions.
   // If the user clicks sign in, call GitkitClient.startSignIn() to trigger the sign in flow.
-  // If the user clicks sign out, call GitkitClient.signOut() to clear state.
-  // If the user clicks manage account, call GitkitClient.manageAccount() to show manage
-  // account UI.
 /*
   @Override
   public void onClick(View v) {
