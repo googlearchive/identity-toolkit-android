@@ -1,6 +1,9 @@
-This is Google Identity Toolit quickstart for Android.
-See https://developers.google.com/identity-toolkit/quickstart/android for more
-information.
+This is Google Identity Toolit quickstart for Android
+=====================================================
 
-For more information about the Identity Toolkit Android Library, see the Javadoc here:
-http://googlesamples.github.io/identity-toolkit-android/
+This sample has been deprecated/archived meaning it's read-only and it's no longer actively maintained (more details on archiving can be found [here][1]).
+
+For other related samples, check out the new [github.com/android/identity-samples][2] repo. Thank you!
+
+[1]: https://help.github.com/en/articles/about-archiving-repositories
+[2]: https://github.com/android/identity-samples
